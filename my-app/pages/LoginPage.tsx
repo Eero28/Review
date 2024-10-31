@@ -1,12 +1,13 @@
 import React from 'react'
-import { View, Text, Button } from 'react-native'
-
+import { View } from 'react-native';
+import Form from './FormForm';
+import { useAuth } from '../components/Context';
 type Props = {}
 
 const Home = (props: Props) => {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Button onPress={() => {}} title='to other'></Button>
+      <Form/>
     </View>
     
   )
